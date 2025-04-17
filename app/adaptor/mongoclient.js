@@ -6,9 +6,8 @@ require("../config/env")
 
 // Now you can use the variables
 const port = process.env.PORT;
-const dbUrl = process.env.DB_URL;
-const secret = process.env.SECRET_KEY;
 const mongoUrl = process.env.MONGO_URL;
+const dbName = process.env.DB_NAME;
 
 console.log(`App running on port ${port}`);
 
@@ -19,7 +18,7 @@ const createMongoConnection = async () => {
 
         const client = new MongoClient(mongoUrl);
         await client.connect();
-        const db = client.db("book_reviews");
+        const db = client.db(dbName);
         await createAllCollections(db);
 
         return db;
