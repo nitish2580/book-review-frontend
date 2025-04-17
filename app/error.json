@@ -1,0 +1,17 @@
+{
+  "MONGODB_ERROR": {
+    "FETCH_RECORD": "Error fetching mongodb record",
+    "FETCH_RECORDS": "Error fetching mongodb records",
+    "FETCH_RECORD_BY_ID": "Error fetching mongodb record by id",
+    "INSERT_RECORDS": "Error inserting records inside mongodb",
+    "INSERT_RECORD": "Error inserting record inside mongodb",
+    "UPDATE_RECORDS": "Error updating mongodb records",
+    "UPDATE_RECORD": "Error updating mongodb record",
+    "DELETE_RECORDS": "Error deleting records",
+    "DELETE_RECORD": "Error deleting record",
+    "COUNT_RECORD": "Error Counting mongodb record",
+    "FETCH_RECORD_BY_AGGREGATION": "Error fetching mongodb record using aggregate query",
+    "NOT_VALID_METHOD": "Not a valid methods",
+    "NOT_VALID_TIME": "End time should be greater than start time"
+  }
+}
